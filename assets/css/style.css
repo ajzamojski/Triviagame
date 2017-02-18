@@ -1,0 +1,76 @@
+body {
+	background-image: url("../images/matrixback.jpg");
+	background-size: cover;
+	background-repeat: 0;
+	font-family: 'VT323', monospace;
+	color: #b5ceb5;
+}
+
+.centeralign {
+	justify-content: center;
+	display: flex;
+}
+
+.content {
+	justify-content: center;
+	display: flex;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+.mainCol {
+	background-color: black;
+	position: relative;
+	top: 50px;
+	min-height: 300px;
+	height: auto;
+	margin-bottom: 50px;
+	border-radius: 30px;
+	border-style: solid;
+	border-color: #53c252;
+}
+
+.startButton {
+	justify-content: center;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+	opacity: .8;
+}
+
+.buttonClass {
+	background-color: transparent;
+	border: none;
+	width: 100%;
+}
+
+#buttonStart {
+	width: 100%;
+	font-size: 26px;
+	background-color: #518b53;
+}
+
+#buttonStart:hover {
+	background-color: #276925;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	color: #2b6a2b;
+	list-style: none;
+	letter-spacing: 1px;
+}
+
+li:hover {
+	background-color: #848a84;
+}
+
+.heading {
+	padding: 25px 5px;
+	margin-bottom: 20px;
+	/*background-color: #009688;*/
+}
